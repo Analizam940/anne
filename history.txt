@@ -1,0 +1,157 @@
+1  ls
+    2  cd documents
+    3  cd ..
+    4  -al
+    5  ls -al
+    6  mkdir mones
+    7  cd belen
+    8  cd ..
+    9  ls
+   10  cd document
+   11  ls
+   12   cd documents
+   13  cd ..
+   14  cd documents
+   15  -al
+   16  ls -al
+   17  mkdir mones
+   18  mkdir mones
+   19  ls
+   20  ls
+   21  cd documents
+   22  cd ..
+   23  cd documents
+   24  -al
+   25  ls -al
+   26  mkdir mones
+   27  ls
+   28  ls -al
+   29  mkdir ana
+   30  cd ana
+   31  ls
+   32  touch test.text
+   33  touch readme.mid
+   34  ls
+   35  touch readme.md
+   36  ls
+   37  ls
+   38  ls
+   39  rm readme.mid
+   40  ls
+   41  rm test.text
+   42  ls
+   43  git config --global user.name
+   44  rm git config --global user.name
+   45  ls
+   46  start readme.md
+   47  git config --global user.name "Analizam90"
+   48  rm git config --global user.name "Analizam90
+   49  ls
+   50  mkdir ana
+   51  ls
+   52  mkdir liz
+   53  cd liz
+   54  ls
+   55  touch test.text
+   56  touch readme.md
+   57  ls
+   58  ls
+   59  ls -al
+   60  mkdir liz
+   61  ls
+   62  ls
+   63  ls -al
+   64  mkdir analiza
+   65  cd analiza
+   66  ls
+   67  touch test.text
+   68  ls
+   69  rm ls text.text
+   70  ls
+   71  touch readme.md
+   72  ls
+   73  rm readme.md text.txt
+   74  ls
+   75  ls
+   76  ls -al
+   77  mkdir analiza
+   78  ls
+   79  ls -al
+   80  mkdir soliba
+   81  cd soliba
+   82  1s
+   83  touch text.txt
+   84  rm touch text.txt
+   85  ls
+   86  1s
+   87  rm ls
+   88  cd ..
+   89  ls
+   90  ls -al
+   91  mkdir soliba
+   92  ls
+   93  cd documents
+   94  cd ..
+   95  cd documents
+   96  al
+   97  ls -al
+   98  mkdir liza
+   99  cd liza
+  100  ls
+  101  touch test.txt
+  102  ls
+  103  touch readme.md
+  104  ls
+  105  rm text.txt
+  106  rm test.text
+  107  rm test.txt
+  108  ls
+  109  start readme.md
+  110  git config --global user.name
+  111  rm analiza90
+  112  ls
+  113  start readme.md
+  114  git config --global user.name "Analiza940"
+  115  git config --global user.name <"Analiza940">
+  116  git config --global user.name"hakdog"
+  117  git config --global user.name
+  118  ls
+  119  cd document
+  120  cd documents
+  121  cd ..
+  122  cd documents
+  123  ls -al
+  124  mkdir anne
+  125  cd anne
+  126  ls
+  127  touch test.txt
+  128  touch readme.md
+  129  ls
+  130  rm test.txt
+  131  ls
+  132  start readme.md
+  133* rm
+  134  rm git config --global user.name "Analiza940"
+  135  git config --global user.name
+  136  git config --global user.email "monesanaliza485@gmail.com"
+  137  git config --global user.email
+  138  git init
+  139  ls -al
+  140  git status
+  141  git add
+  142  git add .
+  143  git status
+  144  git commit -m "hello"
+  145  git branch -M main
+  146  git remote add origin https://github.com/Analizam940/anne.git
+  147  git push -u origin main
+  148  start readme.md
+  149  git add .
+  150  git status
+  151  git commit -m "second commit"
+  152  git push
+  153  cd ..
+  154  git clone https://github.com/Analizam940/anne.git
+  155  cd anne
+  156  touch history.txt
+  157  history
