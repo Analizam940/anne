@@ -7,7 +7,6 @@
       <link rel="stylesheet" href="ok.css">
 </head>
 <body>
-
   <header>
     <div class="logo">MONES</div>
     <nav>
@@ -120,27 +119,5 @@
       </div>
     </div>
   </section>
-  <script>
-  function contactAlert(){
-    document.getElementById('contactForm').addEventListener('submit', function(e))
-      e.preventDefault();
-            var firstName = document.getElementById('firstName').value;
-            var lastName = document.getElementById('lastName').value;
-            var email = document.getElementById('email').value;
-            var subject = document.getElementById('subject').value;
-            var message = document.getElementById('message').value;
-
-            alert("Information: \nFirst Name: " + firstName + "\nLast Name: " + lastName + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + message);
-        }
-        </script>
-
-  <footer>
-    <p>© 2025 Analiza S. Mones — All Rights Reserved</p>
-  </footer>
-
-  <script>
-    const book = document.getElementById('book');
-    book.addEventListener('click', () => book.classList.toggle('open'));
-  </script>
 </body>
 </html>
