@@ -1,13 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mones</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analiza Mones | Portfolio</title>
+      <link rel="stylesheet" href="ok.css">
 </head>
 <body>
-    <h1>pistiiiiii  change here </h1>
-    <h1>pist    change me iiiiii</h1>
-    <p>analizaaaaaaaaa</p>
+
+  <header>
+    <div class="logo">MONES</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#multimedia">Multimedia</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Get in Touch</a>
+    </nav>
+  </header>
+
+  <section id="about" class="box">
+    <img src="img/pic.jpg" alt="Analiza Mones">
+    <div class="text">
+      <h2>Hello I'm</h2>
+      <h1>Analiza Mones</h1>
+      <h3>BSIT Student | Future IT Professional</h3>
+      <p>Aspiring developer passionate about creating efficient digital solutions and learning web development through hands-on projects.</p>
+      <a href="#multimedia" class="btn">Explore My Projects</a>
+    </div>
+  </section>
+
+  <section id="multimedia" class="box">
+    <h2>My Multimedia</h2>
+    <div class="book-wrapper">
+      <div class="book-title">📖 Please Watch and Listen</div>
+      <div class="book" id="book">
+        <div class="book-content">
+          <div class="left-box">
+            <audio controls>
+              <source src="video/Khalid - Better (Official Video).mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <div class="right-box">
+            <video controls>
+              <source src="video/JENNIE - like JENNIE (Official Teaser).mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="gallery" class="box">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="img/myself.jpg"></div>
+          <div class="flip-back"><img src="img/hts.jpg"></div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="img/mmm.jpg"></div>
+          <div class="flip-back"><img src="img/me.jpg"></div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="img/myprofile.jpg"></div>
+          <div class="flip-back"><img src="img/mdf.jpg"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="box">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-box">
+        <h3>Interactive Design</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+      <div class="skill-box">
+        <h3>Design & Database</h3>
+        <p>PHP, MySQL</p>
+      </div>
+      <div class="skill-box">
+        <h3>Tools</h3>
+        <p>VS Code, GitHub, Figma</p>
+      </div>
+    </div>
+  </section> 
+
+  
+  <section id="contact" class="box">
+    <h2>Get in Touch</h2>
+    <div class="contact-container">
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p><strong>Got an idea? Let’s make it real!</strong></p>
+        <p>I love turning creative thoughts into digital experiences. Let’s create something inspiring together.</p>
+        <p>📧 <a href="mailto:monesanaliza1485@gmail.com">monesanaliza1485@gmail.com</a></p>
+        <p>📞 +63 967434744</p>
+        <p>📍 Pasay City, Philippines</p>
+        <div class="socials">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+  function contactAlert(){
+    document.getElementById('contactForm').addEventListener('submit', function(e))
+      e.preventDefault();
+            var firstName = document.getElementById('firstName').value;
+            var lastName = document.getElementById('lastName').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+
+            alert("Information: \nFirst Name: " + firstName + "\nLast Name: " + lastName + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + message);
+        }
+        </script>
+
+  <footer>
+    <p>© 2025 Analiza S. Mones — All Rights Reserved</p>
+  </footer>
+
+  <script>
+    const book = document.getElementById('book');
+    book.addEventListener('click', () => book.classList.toggle('open'));
+  </script>
 </body>
 </html>
